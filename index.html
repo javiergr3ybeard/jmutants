@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jMutants in the afernoon!</title>
+  </head>
+  <body>
+    <h1>jMutants!</h1>
+    <form id="new_mutant">
+      <input type="text"
+              name="mutantName"
+              value="enter"
+              required>
+      <input type="text"
+            name="realName"
+            value="enter real name"
+            required>
+      <input type="text"
+              name="power"
+              value="enter power"
+              required>
+      <button type="submit">Create</button>
+    </form>
+      <ul id="mutantList">
+        <li class="template">
+          <span class="mutant-name">Wolverine</span>
+          (<a href="#" class="delete">delete</a>)
+        </li>
+      </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/xavierschool.js"></script>
+    <script src="js/createmutants.js"></script>
+    <script src="js/deleteMutant.js"></script>
+    <!-- <script src="js/sussinct.js"></script> -->
+  </body>
+</html>
